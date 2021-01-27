@@ -1,14 +1,5 @@
 
-spring:
-  datasource:
-    sib:
-      jdbc-url: jdbc:mysql://awssibdb1d.cefdfsazd2td.us-east-1.rds.amazonaws.com/sibNetDev?serverTimezone=UTC&useLegacyDatetimeCode=false
-      username: sibNetApiDev
-      password: paSswOrd
-    bansoft:
-      jdbc-url: jdbc:mysql://sib4bansoft-db-qa.cefdfsazd2td.us-east-1.rds.amazonaws.com/sib_dev?serverTimezone=UTC&useLegacyDatetimeCode=false
-      username: sib_readonlydev
-      password: "fsYQ6J7NsUfXv9LQ"
-  redis:
-    host: awssibredis1dev.4qqixl.ng.0001.use1.cache.amazonaws.com
-    port: 6379
+user:
+    userName: dev/wlg
+    sex: 男
+    age: 18
